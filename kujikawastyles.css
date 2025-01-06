@@ -51,14 +51,12 @@
 	order: 1;
 	width: 30%;
 	height: 80%;
-	background-color: black;
 }
 
 .img-right {
 	order: 3;
 	width: 30%;
 	height: 80%;
-	background-color: black;
 }
 
 .content {
@@ -118,4 +116,29 @@ a {
 
 a:hover {
 	color: pink;
+}
+
+.gallery-right {
+	padding-top: 24rem;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-left {
+	padding-top: 8rem;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	padding-top: 1rem;
+}
+
+#headuh {
+	padding-bottom: 1rem;
+}
+
+hr {
+	width: 80%;
+	color: rgba(255,255,255,75%);
 }
